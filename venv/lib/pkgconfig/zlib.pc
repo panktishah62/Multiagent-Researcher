@@ -1,0 +1,13 @@
+prefix=/Users/panktishah/MultiAgent Researcher/venv
+exec_prefix=/Users/panktishah/MultiAgent Researcher/venv
+libdir=/Users/panktishah/MultiAgent Researcher/venv/lib
+sharedlibdir=/Users/panktishah/MultiAgent Researcher/venv/lib
+includedir=/Users/panktishah/MultiAgent Researcher/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
